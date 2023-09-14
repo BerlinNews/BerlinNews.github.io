@@ -671,7 +671,7 @@ body.light-theme{
     width: 100%;
     height: var(--item-min-height-sm);
     object-fit: cover;
-    object-position: center 10%;
+    object-position: center ;
 }
 
 .blog-post-container .container{
@@ -691,13 +691,14 @@ body.light-theme{
     font-style: italic;
 }
 
-
-.2-image-box{
+.2-image-box {
     width: 100%;
     height: var(--item-min-height-sm);
     object-fit: cover;
-    object-position: center ;
+    object-position: center;
+    margin: 10px; /* Add margin to create space around the element */
 }
+
 
 .quote span{
     font-size: 5rem;
