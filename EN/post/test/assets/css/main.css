@@ -671,7 +671,7 @@ body.light-theme{
     width: 100%;
     height: var(--item-min-height-sm);
     object-fit: cover;
-    object-position: center ;
+    object-position: center 20% ;
 }
 
 .blog-post-container .container{
@@ -693,10 +693,10 @@ body.light-theme{
 
 .2-image-box {
     width: 100%;
-    height: var(--item-min-height-sm);
+    height: 100%;
     object-fit: cover;
     object-position: center;
-    margin: 10px; /* Add margin to create space around the element */
+    margin: 300px; /* Add margin to create space around the element */
 }
 
 
