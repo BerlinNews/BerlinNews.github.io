@@ -691,6 +691,10 @@ body.light-theme{
     font-style: italic;
 }
 
+<div class="image-box-2">
+    <img src="./assets/images/2-image.jpg" alt="" class="article-image">
+</div>
+
 .2-image-box {
     width: 100%;
     height: var(--item-min-height-sm);
