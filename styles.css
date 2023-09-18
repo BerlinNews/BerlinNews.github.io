@@ -1,44 +1,41 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-}
+/* Import font and other custom properties here */
 
+/* Base styles */
+/* Include your base styles here */
+
+/* Header styles */
+/* Include your header styles here */
+
+/* Language container styles */
 .language-container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 5rem;
     text-align: center;
 }
 
-h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
+.title {
+    font-size: var(--font-size-lg);
+    margin-bottom: 4rem;
+    color: var(--light-color);
 }
 
 .language-list {
-    list-style: none;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
 }
 
-.language-list li {
-    margin: 10px 0;
+.list-item {
+    text-align: center;
 }
 
-.language-list a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #fff;
+.list-link {
+    font-size: var(--font-size-md);
+    color: var(--light-color);
+    text-transform: uppercase;
     text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: color .25s;
 }
 
-.language-list a:hover {
-    background-color: #0056b3;
+.list-link:hover {
+    color: var(--hover-light-color);
 }
