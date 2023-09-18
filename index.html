@@ -1,132 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Language Preference</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #000;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            color: #fff;
-        }
-        p {
-            color: #ccc;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        .buttons {
-            display: flex;
-            gap: 20px;
-        }
-        button {
-            padding: 15px 30px;
-            font-size: 18px;
-            background-color: #fff;
-            color: #000;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selection</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Choose Your Preferred Language</h1>
-        <p>Please select the language you prefer:</p>
-        
-        <div class="buttons">
-            <button onclick="selectLanguage('EN')">English</button>
-            <button onclick="selectLanguage('GER')">German(Not done)</button>
-        </div>
-        
-        <script>
-            function selectLanguage(language) {
-                // Define the file names for the language pages
-                var englishPage = "./EN/index.html";
-                var germanPage = "./GER/index.html";
-                
-                // Create the full URL based on the selected language
-                var redirectLink = language === "EN" ? englishPage : germanPage;
-                
-                // Redirect the user to the selected page
-                window.location.href = redirectLink;
-            }
-        </script>
-    </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Language Preference</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #000;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            color: #fff;
-        }
-        p {
-            color: #ccc;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        .buttons {
-            display: flex;
-            gap: 20px;
-        }
-        button {
-            padding: 15px 30px;
-            font-size: 18px;
-            background-color: #fff;
-            color: #000;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Choose Your Preferred Language</h1>
-        <p>Please select the language you prefer:</p>
-        
-        <div class="buttons">
-            <button onclick="selectLanguage('EN')">English</button>
-            <button onclick="selectLanguage('GER')">German(not done</button>
-        </div>
-        
-        <script>
-            function selectLanguage(language) {
-                // Define the file names for the language pages
-                var englishPage = "./EN/index.html";
-                var germanPage = "./GER/index.html";
-                
-                // Create the full URL based on the selected language
-                var redirectLink = language === "EN" ? englishPage : germanPage;
-                
-                // Redirect the user to the selected page
-                window.location.href = redirectLink;
-            }
-        </script>
+    <div class="language-container">
+        <h1>Select Your Language</h1>
+        <ul class="language-list">
+            <li><a href="#">English</a></li>
+            <li><a href="#">German</a></li>
+        </ul>
     </div>
 </body>
 </html>
