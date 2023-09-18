@@ -698,11 +698,12 @@ body.light-theme{
 .image-box-2 {
     width: 100%;
     max-width: 100%;
-    height: auto; /* Adjust to maintain the aspect ratio of the image */
+    height: auto;
     object-fit: cover;
     object-position: center;
-    position: relative; /* Add this line */
     margin: 10px;
+    position: relative;
+    z-index: 1; /* Add this line */
 }
 
 
