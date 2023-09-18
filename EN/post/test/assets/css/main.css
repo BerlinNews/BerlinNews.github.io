@@ -695,14 +695,16 @@ body.light-theme{
     <img src="./assets/images/2-image.jpg" alt="" class="article-image">
 </div>
 
-.2-image-box {
+.image-box-2 {
     width: 100%;
-    height: var(--item-min-height-sm);
+    max-width: 100%;
+    height: auto; /* Adjust to maintain the aspect ratio of the image */
     object-fit: cover;
     object-position: center;
-    position: relative; /* Add this */
+    position: relative; /* Add this line */
     margin: 10px;
 }
+
 
 
 .quote span{
