@@ -695,19 +695,20 @@ body.light-theme{
     <img src="./assets/images/2-image.jpg" alt="" class="article-image">
 </div>
 
-/* Add this CSS to your stylesheet */
-.2-image-box {
+/* Corrected CSS class name */
+.image-box-2 {
     width: 100%;
     max-width: 100%;
-    position: relative; /* Add this */
-    z-index: 0; /* Add this */
+    position: relative;
+    z-index: 0;
 }
 
 /* Set a higher z-index for the image itself to ensure it's above other content */
-.2-image-box .article-image {
-    position: relative; /* Add this */
-    z-index: 1; /* Add this */
+.image-box-2 .article-image {
+    position: relative;
+    z-index: 1;
 }
+
 
 
 
