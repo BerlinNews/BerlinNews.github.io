@@ -667,6 +667,10 @@ body.light-theme{
     margin-bottom: 2.5rem;
 }
 
+.title.blog-post-title {
+  color: yellow;
+}
+
 .blog-post-data img{
     color: yellow;
     width: 100%;
