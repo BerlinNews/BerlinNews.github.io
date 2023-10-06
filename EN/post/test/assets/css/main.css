@@ -712,6 +712,14 @@ body.light-theme{
     position: relative;
     z-index: 1;
 }
+.2-image-box {
+    width: 100%;
+    height: var(--item-min-height-sm);
+    object-fit: cover;
+    object-position: center;
+    position: relative; /* Add this */
+    margin: 10px
+}
 
 
 .quote span{
