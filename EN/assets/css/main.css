@@ -675,8 +675,12 @@ body.light-theme{
 }
 
 .ETC-image-box{
-    position: relative;
+    width: 100%;
     height: var(--item-min-height-sm);
+    object-fit: cover;
+    object-position: center;
+    position: relative; /* Add this */
+    margin: 10px;
 }
 
 .blog-post-container .container{
