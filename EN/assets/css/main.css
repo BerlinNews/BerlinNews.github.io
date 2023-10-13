@@ -674,7 +674,7 @@ body.light-theme{
     object-position: center 10%;
 }
 
-.ETC-image-box{
+.ETC-image-box {
     width: 100%;
     height: var(--item-min-height-sm);
     object-fit: cover;
@@ -682,6 +682,13 @@ body.light-theme{
     position: relative; /* Add this */
     margin: 10px;
 }
+
+/* Set a higher z-index for the image itself to ensure it's above other content */
+.ETC-image-box .article-image {
+    position: relative;
+    z-index: 1;
+}
+
 
 .blog-post-container .container{
     max-width: 90rem;
